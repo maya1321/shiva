@@ -11,10 +11,20 @@
         li { margin-bottom: 5px; }
         .type { font-weight: bold; color: #666; }
         .album-title { color: red; }
+        .image-card { border: 2px solid #ddd; border-radius: 16px; overflow: hidden; box-shadow: 0 5px 12px rgba(0,0,0,0.12); background: #fff; }
+        .image-card img { display: block; width: 100%; height: auto; }
     </style>
 </head>
 <body>
-    <img src="immagine-shiva.jpg" alt="Shiva" style="max-width: 100%; height: auto; display: block; margin-bottom: 20px;" />
+    <div id="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px,1fr)); gap: 16px; margin-bottom: 20px;">
+        <div class="image-card"><img src="Shiva-scaled.jpg" alt="Shiva-scaled" /></div>
+        <div class="image-card"><img src="2c88b3b6e46c0f74b2f96c40563f3ad1.jpg" alt="Shiva hash" /></div>
+        <div class="image-card"><img src="download.jpg" alt="download" /></div>
+        <div class="image-card"><img src="Shiva-Dark-Love.jpg" alt="Shiva Dark Love" /></div>
+        <div class="image-card"><img src="hq720.jpg" alt="hq720" /></div>
+        <div class="image-card"><img src="unnamed.jpg" alt="unnamed" /></div>
+        <div class="image-card"><img src="images.jpg" alt="images" /></div>
+    </div>
     <h1>Discografia di Shiva (Andrea Arrigoni)</h1>
     <p>Discografia completa fino al 2026, organizzata cronologicamente per anno. Basata su Wikipedia Italiana.</p>
 
